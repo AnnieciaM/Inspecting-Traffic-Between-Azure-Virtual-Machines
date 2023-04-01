@@ -85,7 +85,7 @@ STEP 4 - CREATE SECURITY GROUP
 <img src="https://i.imgur.com/fapYMKp.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From DC-1 Active Directory Users and Computers right click mydomain.com, new then organizational unit. Then create a new unit called _SECURITY_GROUPS.
+From DC-1 Active Directory Users and Computers right click mydomain.com, new, then organizational unit. Create a new unit called _SECURITY_GROUPS.
 </p>
 <br />
 
@@ -94,7 +94,7 @@ From DC-1 Active Directory Users and Computers right click mydomain.com, new the
 <img src="https://i.imgur.com/XNMUhux.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once _SECURITY_GROUPS is created right click, new and then group. Create a new group called ACCOUNTANTS.
+Once _SECURITY_GROUPS is created right click, new, and then group. Create a new group called ACCOUNTANTS.
 </p>
 <br />
 
@@ -102,7 +102,7 @@ Once _SECURITY_GROUPS is created right click, new and then group. Create a new g
 <img src="https://i.imgur.com/6EFifqm.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Right click on ACCOUNTANTS, share then give ACCOUNTANTS permission to read and write.
+Right click on ACCOUNTANTS, share, then give ACCOUNTANTS permission to read and write.
 </p>
 <br />
 
@@ -110,7 +110,7 @@ Right click on ACCOUNTANTS, share then give ACCOUNTANTS permission to read and w
 <img src="https://i.imgur.com/qVs2chD.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Switch back to Client-1 VM and see if they are allowed access but bad.hega doesn't have access. The permissions are correct.
+Switch back to Client-1 VM and see if they are allowed access, but bad.hega doesn't have access. The permissions are correct.
 </p>
 <br />
 
@@ -118,7 +118,7 @@ Switch back to Client-1 VM and see if they are allowed access but bad.hega doesn
 <img src="https://i.imgur.com/EZglXYb.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go back to DC-1 VM and click on ACCOUNTANTS and add bad.heda as a user. Bad.hega the user logged in to Client-1 VM now has access to the accounting share files.
+Go back to DC-1 VM and click on ACCOUNTANTS and add bad.heda as a user. (Bad.hega) the user logged in to Client-1 VM now has access to the accounting share files.
 </p>
 <br />
 
