@@ -51,7 +51,7 @@ STEP 3 - ATTEMPT TO ACCESS FILE SHARES
 <img src="https://i.imgur.com/L9h5SHR.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Login to Client-1 VM as Bad.hega and type \\dc-1 in file explorer. That will show you all the shared files that were created in DC-1.
+Login to Client-1 VM as Bad.heda and type \\dc-1 in file explorer. That will show you all the shared files that were created in DC-1.
 </p>
 <br />
 
